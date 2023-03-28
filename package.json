@@ -6,9 +6,9 @@
   "proxy": "http://localhost:5000",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build && json-server --watch db.json --port 5000",
     "preview": "vite preview",
-    "server": "json-server --watch db.json --port 5000"
+    "server": ""
   },
   "dependencies": {
     "framer-motion": "^9.0.4",
